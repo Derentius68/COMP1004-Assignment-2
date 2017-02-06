@@ -53,8 +53,8 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,7 +70,7 @@
             // 
             // BasePriceTextBox
             // 
-            this.BasePriceTextBox.Location = new System.Drawing.Point(132, 29);
+            this.BasePriceTextBox.Location = new System.Drawing.Point(132, 134);
             this.BasePriceTextBox.Name = "BasePriceTextBox";
             this.BasePriceTextBox.Size = new System.Drawing.Size(111, 20);
             this.BasePriceTextBox.TabIndex = 0;
@@ -78,7 +78,7 @@
             // BasePriceLabel
             // 
             this.BasePriceLabel.AutoSize = true;
-            this.BasePriceLabel.Location = new System.Drawing.Point(12, 32);
+            this.BasePriceLabel.Location = new System.Drawing.Point(12, 137);
             this.BasePriceLabel.Name = "BasePriceLabel";
             this.BasePriceLabel.Size = new System.Drawing.Size(61, 13);
             this.BasePriceLabel.TabIndex = 1;
@@ -87,7 +87,7 @@
             // AdditionalOptionsLabel
             // 
             this.AdditionalOptionsLabel.AutoSize = true;
-            this.AdditionalOptionsLabel.Location = new System.Drawing.Point(12, 55);
+            this.AdditionalOptionsLabel.Location = new System.Drawing.Point(12, 160);
             this.AdditionalOptionsLabel.Name = "AdditionalOptionsLabel";
             this.AdditionalOptionsLabel.Size = new System.Drawing.Size(98, 13);
             this.AdditionalOptionsLabel.TabIndex = 2;
@@ -95,7 +95,7 @@
             // 
             // AddionalOptionsTextBox
             // 
-            this.AddionalOptionsTextBox.Location = new System.Drawing.Point(132, 52);
+            this.AddionalOptionsTextBox.Location = new System.Drawing.Point(132, 157);
             this.AddionalOptionsTextBox.Name = "AddionalOptionsTextBox";
             this.AddionalOptionsTextBox.ReadOnly = true;
             this.AddionalOptionsTextBox.Size = new System.Drawing.Size(111, 20);
@@ -104,7 +104,7 @@
             // SubTotalLabel
             // 
             this.SubTotalLabel.AutoSize = true;
-            this.SubTotalLabel.Location = new System.Drawing.Point(12, 77);
+            this.SubTotalLabel.Location = new System.Drawing.Point(12, 182);
             this.SubTotalLabel.Name = "SubTotalLabel";
             this.SubTotalLabel.Size = new System.Drawing.Size(56, 13);
             this.SubTotalLabel.TabIndex = 4;
@@ -114,7 +114,7 @@
             // SalesTaxLabel
             // 
             this.SalesTaxLabel.AutoSize = true;
-            this.SalesTaxLabel.Location = new System.Drawing.Point(12, 102);
+            this.SalesTaxLabel.Location = new System.Drawing.Point(12, 207);
             this.SalesTaxLabel.Name = "SalesTaxLabel";
             this.SalesTaxLabel.Size = new System.Drawing.Size(89, 13);
             this.SalesTaxLabel.TabIndex = 5;
@@ -123,7 +123,7 @@
             // TotalLabel
             // 
             this.TotalLabel.AutoSize = true;
-            this.TotalLabel.Location = new System.Drawing.Point(12, 128);
+            this.TotalLabel.Location = new System.Drawing.Point(12, 233);
             this.TotalLabel.Name = "TotalLabel";
             this.TotalLabel.Size = new System.Drawing.Size(37, 13);
             this.TotalLabel.TabIndex = 6;
@@ -132,7 +132,7 @@
             // TradeInAllowanceLabel
             // 
             this.TradeInAllowanceLabel.AutoSize = true;
-            this.TradeInAllowanceLabel.Location = new System.Drawing.Point(12, 163);
+            this.TradeInAllowanceLabel.Location = new System.Drawing.Point(12, 268);
             this.TradeInAllowanceLabel.Name = "TradeInAllowanceLabel";
             this.TradeInAllowanceLabel.Size = new System.Drawing.Size(99, 13);
             this.TradeInAllowanceLabel.TabIndex = 7;
@@ -141,7 +141,7 @@
             // AmountDueLabel
             // 
             this.AmountDueLabel.AutoSize = true;
-            this.AmountDueLabel.Location = new System.Drawing.Point(12, 188);
+            this.AmountDueLabel.Location = new System.Drawing.Point(12, 293);
             this.AmountDueLabel.Name = "AmountDueLabel";
             this.AmountDueLabel.Size = new System.Drawing.Size(69, 13);
             this.AmountDueLabel.TabIndex = 8;
@@ -149,7 +149,7 @@
             // 
             // SubTotalTextBox
             // 
-            this.SubTotalTextBox.Location = new System.Drawing.Point(132, 74);
+            this.SubTotalTextBox.Location = new System.Drawing.Point(132, 179);
             this.SubTotalTextBox.Name = "SubTotalTextBox";
             this.SubTotalTextBox.ReadOnly = true;
             this.SubTotalTextBox.Size = new System.Drawing.Size(111, 20);
@@ -157,7 +157,7 @@
             // 
             // SalesTaxTextBox
             // 
-            this.SalesTaxTextBox.Location = new System.Drawing.Point(132, 99);
+            this.SalesTaxTextBox.Location = new System.Drawing.Point(132, 204);
             this.SalesTaxTextBox.Name = "SalesTaxTextBox";
             this.SalesTaxTextBox.ReadOnly = true;
             this.SalesTaxTextBox.Size = new System.Drawing.Size(111, 20);
@@ -165,7 +165,7 @@
             // 
             // TotalTextBox
             // 
-            this.TotalTextBox.Location = new System.Drawing.Point(132, 125);
+            this.TotalTextBox.Location = new System.Drawing.Point(132, 230);
             this.TotalTextBox.Name = "TotalTextBox";
             this.TotalTextBox.ReadOnly = true;
             this.TotalTextBox.Size = new System.Drawing.Size(111, 20);
@@ -173,7 +173,7 @@
             // 
             // TradeInAllowanceTextBox
             // 
-            this.TradeInAllowanceTextBox.Location = new System.Drawing.Point(132, 162);
+            this.TradeInAllowanceTextBox.Location = new System.Drawing.Point(132, 267);
             this.TradeInAllowanceTextBox.Name = "TradeInAllowanceTextBox";
             this.TradeInAllowanceTextBox.Size = new System.Drawing.Size(111, 20);
             this.TradeInAllowanceTextBox.TabIndex = 14;
@@ -182,7 +182,7 @@
             // 
             // AmountDueTextBox
             // 
-            this.AmountDueTextBox.Location = new System.Drawing.Point(132, 188);
+            this.AmountDueTextBox.Location = new System.Drawing.Point(132, 293);
             this.AmountDueTextBox.Name = "AmountDueTextBox";
             this.AmountDueTextBox.ReadOnly = true;
             this.AmountDueTextBox.Size = new System.Drawing.Size(111, 20);
@@ -252,7 +252,7 @@
             // 
             // CalculateButton
             // 
-            this.CalculateButton.Location = new System.Drawing.Point(31, 281);
+            this.CalculateButton.Location = new System.Drawing.Point(31, 386);
             this.CalculateButton.Name = "CalculateButton";
             this.CalculateButton.Size = new System.Drawing.Size(80, 35);
             this.CalculateButton.TabIndex = 24;
@@ -262,7 +262,7 @@
             // 
             // ClearButton
             // 
-            this.ClearButton.Location = new System.Drawing.Point(166, 281);
+            this.ClearButton.Location = new System.Drawing.Point(166, 386);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(80, 35);
             this.ClearButton.TabIndex = 25;
@@ -271,7 +271,7 @@
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(291, 281);
+            this.ExitButton.Location = new System.Drawing.Point(291, 386);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(80, 35);
             this.ExitButton.TabIndex = 26;
@@ -296,7 +296,13 @@
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Text = "&File";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Text = "E&xit";
             // 
             // editToolStripMenuItem
             // 
@@ -307,38 +313,32 @@
             this.colourToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "Edit";
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.editToolStripMenuItem.Text = "&Edit";
             // 
             // calculateToolStripMenuItem
             // 
             this.calculateToolStripMenuItem.Name = "calculateToolStripMenuItem";
             this.calculateToolStripMenuItem.ShortcutKeyDisplayString = "";
             this.calculateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.calculateToolStripMenuItem.Text = "Calculate";
+            this.calculateToolStripMenuItem.Text = "&Calculate";
             // 
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
             this.clearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.clearToolStripMenuItem.Text = "Clear";
+            this.clearToolStripMenuItem.Text = "C&lear";
             // 
             // fontToolStripMenuItem
             // 
             this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
             this.fontToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.fontToolStripMenuItem.Text = "Font";
+            this.fontToolStripMenuItem.Text = "&Font";
             // 
             // colourToolStripMenuItem
             // 
             this.colourToolStripMenuItem.Name = "colourToolStripMenuItem";
             this.colourToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.colourToolStripMenuItem.Text = "Colour";
+            this.colourToolStripMenuItem.Text = "C&olour";
             // 
             // helpToolStripMenuItem
             // 
@@ -346,20 +346,21 @@
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Text = "&Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Text = "&About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.StereoSystemCheckBox);
             this.groupBox1.Controls.Add(this.LeatherInteriorCheckBox);
             this.groupBox1.Controls.Add(this.ComputerNavigationCheckBox);
-            this.groupBox1.Location = new System.Drawing.Point(266, 29);
+            this.groupBox1.Location = new System.Drawing.Point(266, 134);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(130, 113);
             this.groupBox1.TabIndex = 28;
@@ -371,7 +372,7 @@
             this.groupBox2.Controls.Add(this.StandardRadioButton);
             this.groupBox2.Controls.Add(this.PearlizedRadioButton);
             this.groupBox2.Controls.Add(this.CustomizedDetailingRadioButton);
-            this.groupBox2.Location = new System.Drawing.Point(266, 153);
+            this.groupBox2.Location = new System.Drawing.Point(266, 258);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(130, 100);
             this.groupBox2.TabIndex = 29;
@@ -382,7 +383,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 340);
+            this.ClientSize = new System.Drawing.Size(408, 437);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ExitButton);

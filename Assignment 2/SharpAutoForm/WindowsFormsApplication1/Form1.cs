@@ -31,5 +31,15 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        public class AboutMessaageBox
+        {
+            this.AboutMessaageBox.show;
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
