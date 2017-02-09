@@ -1,4 +1,19 @@
-﻿using System;
+﻿/**
+ * ************************************************************************************
+ * App name: SharpAutoForm
+ * Author: Drew Bywater
+ * Student ID: 200261234
+ * App Creation Date: February 2017
+ * ************************************************************************************
+ * App Description: 
+ * This app will determine the total amount due for the purchase of a vehicle based on
+ * accessories and options added, as well as a trade-in value if available.
+ * Base price of vehicle is to be set by user.
+ * ************************************************************************************
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
